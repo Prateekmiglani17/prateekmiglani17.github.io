@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="icon" type="image/jpg" href="assets/prateek.jpg" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/loader.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.17/jquery.scrollify.min.js"
+    ></script> -->
+    <title>Prateek's Portfolio</title>
+    <script src="js/script.js" async></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  </head>
+  <body>
+    <div id="page-container">
+      <header class="nav-bar">
+        <a href="#" class="my_logo left"><h2>PRATEEK</h2></a>
+        <ul class="nav_links" id="nav_links">
+          <li>
+            <a href="#">HOME</a>
+          </li>
+          <li>
+            <a href="#skills-section">SKILLS</a>
+          </li>
+          <li>
+            <a href="#projects-section">PROJECTS</a>
+          </li>
+          <li>
+            <a href="#contact-me-section">CONTACT ME</a>
+          </li>
+        </ul>
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <i class="fa fa-bars"></i>
+        </label>
+      </header>
+      <section class="section" id="home-section">
+        <div id="home-section-wrapper">
+          <div class="div-wrapper">
+            <img
+              src="assets/prateek.jpg"
+              alt="user-image"
+              id="user-image"
+              data-aos="fade-up"
+            />
+          </div>
+          <div class="div-wrapper typewriter">
+            <h1 class="hi-there-text">Hello Folks!</h1>
+            <br />
+            <div id="app"></div>
+            <p class="intro-paragraph">
+              My name is Prateek.<br />
+              A UI/UX Developer and a Designer who is highly fascinated by new
+              technologies .  
+              I am currently looking for OPPORTUNITIES to put my
+              skills to work .
+            </p>
+            <div class="btn-group">
+              <a href="prateek.pdf" class="btn btn-info button" roll="button">DOWNLOAD RESUME</a>
+            <!-- <div class="first-slide-connect">
+              <span id="github_icon_span" class="fafa"
+                ><a href="https://github.com/imrajat7"
+                  ><i class="fa fa-github"></i></a
+              ></span>
+              <span id="linkedin_icon_span" class="fafa"
+                ><a href="https://www.linkedin.com/in/imrajat7/"
+                  ><i class="fa fa-linkedin"></i></a
+              ></span>
+              <span id="facebook_icon_span" class="fafa"
+                ><a href="https://www.facebook.com/imrajat77"
+                  ><i class="fa fa-facebook"></i></a
+              ></span>
+              <span id="mail_icon_span" class="fafa"
+                ><a href="mailto:rajat110898@gmail.com"
+                  ><i class="fa fa-envelope-o"></i></a
+              ></span>
+              <span id="twitter_icon_span" class="fafa"
+                ><a href="https://twitter.com/imrajat77"
+                  ><i class="fa fa-twitter"></i></a
+              ></span>
+              <span id="instagram_icon_span" class="fafa"
+                ><a href="https://www.instagram.com/heyits_rajat/"
+                  ><i class="fa fa-instagram"></i></a
+              ></span>
+            </div> -->
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="skills-section">
+        <div id="second-section-wrapper">
+          <div class="div-wrapper skills-text-wrapper" data-aos="flip-left">
+            <h1 id="skills-text">Skills</h1>
+          </div>
+          <div
+            class="skills-section-wrapper"
+            id="skills-section-wrapper"
+            data-aos="zoom-in"
+          >
+            <div class="skills-section-div">
+              <div class="skill-outer-div">
+                <img src="./assets/Favorites/c++-100.png" />
+              </div>
+              <div class="skill-outer-div html">
+                <img src="./assets/Favorites/html-5-100.png" />
+              </div>
+              <div class="skill-outer-div css">
+                <img src="./assets/Favorites/css3-100.png" />
+              </div>
+              <div class="skill-outer-div js">
+                <img src="./assets/Favorites/javascript-100.png" />
+              </div>
+              <div class="skill-outer-div boot">
+                <img src="./assets/Favorites/boot.png" />
+              </div>
+              <div class="skill-outer-div xd">
+                <img src="./assets/Favorites/xd.svg" />
+              </div>
+              <div class="skill-outer-div java">
+                <img src="./assets/Favorites/java.png" />
+              </div>
+              <div class="skill-outer-div micro">
+                <img src="./assets/Favorites/fundamentals.png" />
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section class="section" id="projects-section">
+      <div class="projects-section-wrapper">
+        <div class="projects-text-div" data-aos="flip-up">
+          <h1 class="projects-text">Projects</h1>
+        </div>
+        <div class="div-wrapper projects-wrapper">
+          <ul class="cards">
+            <li class="cards-item" data-aos="fade-up">
+              <div class="card">
+                <div class="card-image">
+                  <img
+                    src="./assets/6.jpg"
+                    alt="ecom-image"
+                    class="project-image"
+                  />
+                </div>
+                <div class="card-content">
+                  <h2 class="card-title">Sheen-Tex-India</h2>
+                  <p class="card-text">
+                    The production of textiles is a craft whose speed and scale of production has been altered almost beyond recognition by industrialization .
+                    This is a clone website of a textile industry named SHEEN TEX INDIA .<br>
+                    Technology Stack : HTML , Advance CSS , BootStrap , Javascript.
+                  </p>
+                  <a
+                    href="https://prateekmiglani17.github.io/Sheen-tex-india/"
+                    target="_blank"
+                    class="hosted-links"
+                    >View Live</a
+                  >
+                </div>
+              </div>
+            </li>
+            <li class="cards-item" data-aos="fade-up">
+              <div class="card">
+                <div class="card-image">
+                  <img
+                    src="./assets/movie.jpeg"
+                    alt="socialize-image"
+                    class="project-image"
+                  />
+                </div>
+                <div class="card-content">
+                  <h2 class="card-title">Guess The Movie</h2>
+                  <p class="card-text">
+                   A game " Guess The Movie " .<br>
+                   This is a game with specified (Fixed) number of attempt to guess the movie name .
+                    If you guess the movie in the given attempts , you win else you loose .<br>
+                    Technology Stack : Java .
+                    <br><br>
+                  </p>
+                  <a
+                    href="https://github.com/Prateekmiglani17/GuessTheMovie"
+                    target="_blank"
+                    class="hosted-links"
+                    >visit github</a
+                  >
+                </div>
+              </div>
+            </li>
+            <li class="cards-item" data-aos="fade-up">
+              <div class="card">
+                <div class="card-image">
+                  <img
+                    src="./assets/xd-work.png"
+                    alt="allbus-image"
+                    class="project-image"
+                  />
+                </div>
+                <div class="card-content">
+                  <h2 class="card-title">Elegance is Elimination</h2>
+                  <p class="card-text">
+                    Fashion is all about uniqueness and not adhering what's "latest" or "trendy" ,
+                    and the potential to bring different people together to celebrate their own individuality. 
+                    The best way to enjoy fashion is to wear what you like and most importantly be "yourself".
+                    <br>Technology Stack : Adobe XD.
+                  </p>
+                  <a
+                    href="https://xd.adobe.com/view/2ec8d721-6879-4869-9d8a-3ba0f334bf3a-7b9b/"
+                    target="_blank"
+                    class="hosted-links"
+                    >View Live</a
+                  >
+                </div>
+              </div>
+            </li>
+            <!-- <li class="cards-item" data-aos="fade-up">
+              <div class="card">
+                <div class="card-image">
+                  <img
+                    src="/assets/jus-chat.png"
+                    alt="juschat-image"
+                    class="project-image"
+                  />
+                </div>
+                <div class="card-content">
+                  <h2 class="card-title">JusChat</h2>
+                  <p class="card-text">
+                    A web app implemented using SocketIO, React and NodeJS.
+                    Multiple users can join messages and can check members
+                    present in that group. User can send emojis while chatting.
+                  </p>
+                  <a
+                    href="https://jus-chat.netlify.app/"
+                    target="_blank"
+                    class="hosted-links"
+                    >hosted app</a
+                  >
+                </div>
+              </div>
+            </li> -->
+            <li class="cards-item">
+              <h3>
+                & check others projects on
+                <a
+                  href="https://github.com/Prateekmiglani17"
+                  target="_blank"
+                  style="text-decoration: underline"
+                  ><h3 class="other-project">github</h3></a
+                >
+              </h3>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact-me-section">
+      <div class="contact-me-section-wrapper">
+        <h1 class="contact-me-text" data-aos="flip-left">Contact me</h1>
+        <p>
+          get in touch with me -><br /><a
+            id="contact-email"
+            href="mailto:prateekmiglani777@gmail.com"
+            >prateekmiglani777@gmail.com <br> +917082766468</a
+          >
+        </p>
+        <div class="contact-social-icons">
+          <p>Or find me on</p>
+          <ul class="contact-social-icons-list">
+            <li>
+              <a href="https://www.linkedin.com/in/prateek-miglani-98a619155/"
+                ><li><i class="fa fa-linkedin-square"></i> LinkedIn </li></a
+              >
+            </li>
+            <li>
+              <a href="https://github.com/Prateekmiglani17"
+                ><li><i class="fa fa-github"></i> Github</li></a
+              >
+            </li>
+           
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <div id="go-to-top-button-container">
+      <span>
+        <a href="#"><i class="fa fa-angle-up"></i></a>
+      </span>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-wrapper">
+        designed with &nbsp;<span id="heart-symbol">&hearts;</span> &nbsp; by
+        &nbsp;
+        <a href="https://www.linkedin.com/in/prateek-miglani-98a619155/" target="__blank">prateek</a>
+      </div>
+    </footer>
+    <div class="loader-wrapper">
+      <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+    <script type="text/javascript">
+      AOS.init();
+
+      let scrollToTopButton = document.getElementById(
+        "go-to-top-button-container"
+      );
+
+      let y = window.scrollY;
+      if (y > 0) {
+        scrollToTopButton.className = "show";
+      } else {
+        scrollToTopButton.className = "hide";
+      }
+
+      $(window).on("load", function () {
+        $(".loader-wrapper").fadeOut("slow");
+      });
+
+      let toggler = document.getElementById("check");
+      let navBar = document.getElementById("nav_links");
+      let skillsSectionWrapper = document.getElementById(
+        "skills-section-wrapper"
+      );
+      toggler.addEventListener("click", () => {
+        if (toggler.checked) {
+          navBar.style.left = "0%";
+        } else {
+          navBar.style.left = "-100%";
+        }
+      });
+      navBar.addEventListener("click", () => {
+        if (toggler.checked) {
+          navBar.style.left = "-100%";
+          toggler.checked = false;
+        }
+      });
+
+      window.addEventListener("scroll", (e) => {
+        let y = window.scrollY;
+        if (y > 0) {
+          scrollToTopButton.className = "show";
+        } else {
+          scrollToTopButton.className = "hide";
+        }
+        if (toggler.checked) {
+          navBar.style.left = "-100%";
+          toggler.checked = false;
+        }
+      });
+    </script>
+  </body>
+</html>
